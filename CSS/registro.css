@@ -14,9 +14,6 @@ margin-left: 140px;
 .logo{
 width: 50%;
 display: inline-block;
-
-
-
 }
 nav{
   margin: 10px 0;
@@ -28,9 +25,8 @@ nav{
 
 nav ul{
   width: max-content;
-  padding: 0 100px;
+  padding: 0;
   display: flex;
-  justify-content: flex-end;
   margin-top: 30px;
   background-color: #555;
   justify-content: center;
@@ -40,7 +36,7 @@ nav ul{
 }
 nav ul li a{
   color: #ffffff;
-  font-size: 18px;
+  font-size: 15px;
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
@@ -85,7 +81,6 @@ nav ul li a:hover{
       justify-content: flex-start;
       position: fixed;
       width: 100%;
-      background: #c7c7c7;
       top: 95px;
       left: -100%;
       text-align: center;
@@ -109,7 +104,6 @@ nav ul li a:hover{
       left:0;
   }
 }
-
 body {
   font-family: 'Poppins', sans-serif;
   font-weight: 300;

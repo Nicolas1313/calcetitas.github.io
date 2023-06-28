@@ -4,6 +4,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .logo img {
   width: 100px;
@@ -32,6 +33,7 @@ nav ul{
     justify-content: center;
     align-items: center;
     border-radius: 40px;
+  
 
 }
 nav ul li a{
@@ -81,7 +83,7 @@ nav ul li a:hover{
         justify-content: flex-start;
         position: fixed;
         width: 100%;
-        top: 95px;
+        top: 70px;
         left: -100%;
         text-align: center;
         transition: all .5s;
@@ -243,4 +245,60 @@ text-align: center;
   
   .social-button i {
     font-size: 20px;
+  }
+  .navbarperros ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbarperros li {
+    position: relative;
+  }
+  
+  .navbarperros a {
+    display: block;
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .navbarperros ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -50px;
+
+    border: 1px solid #ccc;
+  }
+  
+  .navbarperros li:hover > ul {
+    display: inherit;
+  }
+  
+  .navbarperros ul ul li {
+    width: 100%;
+  }
+  
+  .navbarperros ul ul a {
+    padding: 10px;
+    color: #000;
+    display: block;
+  }
+  
+  .navbarperros ul ul a:hover {
+    background-color: #e5e5e5;
+  }
+  
+  .navbarperros li:hover a {
+    background-color: #ccc;
+    color: #fff;
+  }
+  
+  .navbarperros li:hover ul a {
+    color: #000;
+  }
+  
+  .navbarperros li:hover ul a:hover {
+    background-color: #e5e5e5;
   }

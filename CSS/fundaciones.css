@@ -4,6 +4,7 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .logo img {
 width: 100px;
@@ -122,7 +123,6 @@ nav ul li a:hover{
     height: 300px;
     margin: 10px;
     border-radius: 50%;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     margin-top: 120px;
   }
   .redes-sociales {

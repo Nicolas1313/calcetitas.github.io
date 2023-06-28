@@ -4,6 +4,7 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .logo img {
 width: 100px;
@@ -25,13 +26,14 @@ nav{
 
 nav ul{
   width: max-content;
-  padding: 0;
+  padding: 25px 0;
   display: flex;
   margin-top: 30px;
   background-color: #555;
   justify-content: center;
   align-items: center;
   border-radius: 40px;
+ 
 
 }
 nav ul li a{
@@ -40,10 +42,12 @@ nav ul li a{
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 nav ul li a:hover{
   background: #979797;
   transition: .3s;
+  text-decoration: none;
 }
 
 .checkbtn{
@@ -104,16 +108,7 @@ nav ul li a:hover{
       left:0;
   }
 }
-.contenedorimg{
-  width: 75vw;
-  max-width: 500px;
-  min-width: 320px;
-  margin: auto;
-}
-img{
-  width: 100%;
-}
-  
+
   .redes-sociales {
     display: flex;
     justify-content: center;
@@ -142,62 +137,9 @@ img{
   .social-button i {
     font-size: 20px;
   }
+  .carousel-item img {
+    width: 800px;
+    height: 800px;
+    margin-top: 70px;
 
-  .carousel {
-    position: relative;
-    width: 100%;
-    max-width: 800px; 
-    margin: 0 auto;
-  }
-
-  .carousel-container {
-    display: flex;
-    overflow: hidden;
-  }
-
-  .carousel img {
-    width: 100%;
-    height: auto;
-  }
-
-  .carousel-info {
-    margin-top: 10px;
-    text-align: center;
-  }
-
-  .carousel-info .info-item {
-    display: none;
-  }
-
-  .carousel-info .info-item.active {
-    display: block;
-  }
-
-  .carousel-controls {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-  }
-
-  .carousel-controls button {
-    padding: 5px 10px;
-    font-size: 18px;
-  }
-
-  .prev-button,
-  .next-button {
-    background-color: #ccc;
-    border: none;
-    cursor: pointer;
-  }
-
-  .prev-button:hover,
-  .next-button:hover {
-    background-color: #aaa;
-  }
-
-  @media (max-width: 580px) {
-    .carousel {
-      max-width: 300px; 
-    }
   }

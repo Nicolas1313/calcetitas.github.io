@@ -4,6 +4,7 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .logo img {
 width: 100px;
@@ -114,6 +115,12 @@ nav ul li a:hover{
 img{
   width: 100%;
   }
+  .contenedorimg {
+    width: 75vw;
+    max-width: 700px;
+    min-width: 320px;
+    margin: 20px auto 0; /* Actualiza la propiedad margin */
+  }
   .boton{
     margin-left: 900px;
     margin-top: 100px;
@@ -143,6 +150,7 @@ img{
     padding: 20px;
     margin-top: 200px;
     border-radius: 5px;
+    margin: 20px auto 0; /* Actualiza la propiedad margin */
   }
   
   label {
